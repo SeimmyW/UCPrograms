@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-assets>
+            <img src = "space.jpg" id = "space"/>
+        </a-assets>
+        <!-- sun -->
+        <a-sphere position= "-1000 0 0" radius= "1000" src="sunmap.jpg"> </a-sphere>
+        <!-- mercury -->
+        <a-sphere position="40 0 0" radius="4" src="mercurymap.jpg"> </a-sphere>
+        <!-- venus -->
+        <a-sphere position="70 0 0" radius="9" src="venusmap.jpg"></a-sphere>
+        <!-- earth -->
+        <a-sphere position="100 0 0" radius="10" src="earthmap1k.jpg"></a-sphere>
+        <!-- mars -->
+        <a-sphere position="150 0 0" radius="5" src="marsmap.jpg"></a-sphere>
+        <!-- jupiter -->
+        <a-sphere position="520 0 0" radius="112" src="jupitermap.jpg"></a-sphere>
+        <!-- saturn -->
+        <a-sphere position="960 0 0" radius="95" src="saturnmap.jpg"></a-sphere>
+        <!-- uranus -->
+        <a-sphere position="1500 0 0" radius="40" src="uranusmap.jpg"></a-sphere>
+        <!-- neptune -->
+        <a-sphere position="2000 0 0" radius="39" src="neptunemap.jpg"></a-sphere>
+        <!-- pluto -->
+        <a-sphere position="2500 0 0" radius="2" src="plutomap.jpg"></a-sphere>
+        <a-sky src ="space.jpg"></a-sky>
+         <!--Camera Side View
+        <a-entity id="cameraWrapper" position="2000 300 70">
+        <a-camera>
+            <a-cursor color="yellow" position = "0 0 0"></a-cursor>
+        </a-camera>
+        </a-entity> -->
+    </a-scene>
+  </body>
+</html>

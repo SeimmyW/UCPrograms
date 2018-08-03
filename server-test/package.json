@@ -1,0 +1,17 @@
+{
+  "name": "first-server",
+  "version": "1.0.0",
+  "description": "The first server for the Oppnet course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seim Wolderufael",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
